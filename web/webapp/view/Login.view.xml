@@ -1,0 +1,41 @@
+<Page controllerName="web.controller.Login" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" title=""
+    titleLevel="Auto"
+    showNavButton="false"
+    showHeader="false"
+    showSubHeader="true"
+    navButtonText=""
+    enableScrolling="true"
+    icon=""
+    backgroundDesign="Standard"
+    navButtonType="Back"
+    showFooter="true">
+    <FlexBox displayInline="false"
+        direction="Column"
+        fitContainer="false"
+        renderType="Div"
+        justifyContent="SpaceAround"
+        alignItems="Stretch">
+        <Label text="Demo"
+            design="Bold"
+            textAlign="Begin"
+            textDirection="Inherit"
+            required="false"/>
+        <Label text="Logon"
+            design="Standard"
+            textAlign="Begin"
+            textDirection="Inherit"
+            required="false"/>
+        <Input />
+        <Input />
+        <Button text="Log On"
+            type="Emphasized"
+            width="100%"
+            enabled="true"
+            icon=""
+            iconFirst="true"
+            activeIcon=""
+            iconDensityAware="true"
+            textDirection="Inherit"
+            press="onLogin"/>
+    </FlexBox>
+</Page>
