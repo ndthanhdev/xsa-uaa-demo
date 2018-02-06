@@ -1,0 +1,7 @@
+---
+applications:
+- name: js
+  memory: 128M
+  buildpack: nodejs_buildpack
+  routes:
+  - route: js-1127.cfapps.io
